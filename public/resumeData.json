@@ -1,0 +1,223 @@
+{
+    "main": {
+        "name": "Ramanpreet",
+        "occupation": "Software Engineer",
+        "description": "Software Engineer with Frontend Development, Backend Development experience across diverse industries including banking, healthcare, and research",
+        "image": "Raman_profile.jpeg",
+        "bio": "Hi there! I am Ramanpreet Kaur -- Software Engineer with experience in Software Development, Backend development, Cloud Infrastructure, Software Testing contributing to projects across diverse industries including banking, healthcare, and research. Committed to driving collaborative innovation in building robust, scalable, and user-centric solutions to address complex real-world challenges.",
+        "contactmessage": "Get in touch with me",
+        "email": "ramanpreet16532@gmail.com",
+        "phone": "+1 (619) 673-7682",
+        "address": {
+            "street": "",
+            "city": "San Diego",
+            "state": "CA",
+            "zip": ""
+        },
+        "resumedownload": "Software_Engineer_raman_resume.pdf",
+        "social": [
+            {
+                "name": "linkedin",
+                "url": "https://www.linkedin.com/in/ramanpreet-kaur-0b6208163",
+                "className": "fa fa-linkedin"
+            },
+            {
+                "name": "github",
+                "url": "https://github.com/Ramanpreet6532",
+                "className": "fa fa-github"
+            }
+        ]
+    },
+    "resume": {
+        "skillmessage": "My Programming Language Proficiency",
+        "education": [
+            {
+                "school": "Alliant International University",
+                "degree": "Master of Science: Information Systems and Technology",
+                "graduated": "May 2025",
+                "description": "GPA: 3.82/4.0"
+            },
+            {
+                "school": "University Institute of Engineering and Technology",
+                "degree": "Bachelor of Engineering: Eectronics and Communication",
+                "graduated": "July 2020",
+                "description": "GPA: 7.88/10.0"
+            }
+        ],
+        "work": [
+            {
+                "company": "2DOT2 Inc.",
+                "title": "Data Analyst",
+                "years": "Jan 2025 - Present",
+                "description": ""
+            },
+            {
+                "company": "Platerate",
+                "title": "Software Engineer",
+                "years": "Jan 2022 - Jul 2023",
+                "description": ""
+            },
+            {
+                "company": "Nextpage IT Solution",
+                "title": "React Developer",
+                "years": "Jul 2021 - Dec 2021",
+                "description": ""
+            },
+            {
+                "company": "Hathlogic",
+                "title": "React Developer Intern",
+                "years": "Jan 2021 - Jun 2021",
+                "description": ""
+            }
+        ],
+        "skills": [
+            {
+                "name": "React",
+                "level": "85%"
+            },
+            {
+                "name": "Typescript",
+                "level": "75%"
+            },
+            {
+                "name": "HTML",
+                "level": "70%"
+            },
+            {
+                "name": "CSS",
+                "level": "70%"
+            },
+            {
+                "name": "Node.Js",
+                "level": "80%"
+            },
+            {
+                "name": "Express.JS",
+                "level": "80%"
+            },{
+                "name": "MongoDB",
+                "level": "80%"
+            },{
+                "name": "MySQL",
+                "level": "80%"
+            },
+            {
+                "name": "AWS",
+                "level": "80%"
+            },
+            {
+                "name": "Github",
+                "level": "80%"
+            }
+        ]
+    },
+    "portfolio": {
+        "projects": [
+            {
+                "title": "Healthcare Data Platform",
+                "image": "healthcare_project.png",
+                "url": "project_detail.html?title=Healthcare Data Platform",
+                "description": "Worked on a large-scale healthcare data project for Healthfirst to build a unified and analytics-ready data platform. Ingested and processed raw data from multiple sources including MHS, 834, MP, and HRP. Created an Operational Data Store (ODS) as a refined layer to standardize the data, and developed Lakehouse architecture on top of it for analytical consumption. Authored STTM (Source to Target Mapping) and metamodel documentation to ensure accurate data lineage, governance, and business understanding across stakeholders.",
+                "features": [
+                    "Ingested raw data from heterogeneous healthcare sources (MHS, 834, MP, HRP)",
+                    "Built an ODS (Operational Data Store) as a refined and integrated data layer",
+                    "Implemented Lakehouse architecture to support both analytics and reporting",
+                    "Created STTM (Source to Target Mapping) documents for traceability",
+                    "Authored detailed metamodel documentation for data cataloging and governance",
+                    "Enabled scalable data processing pipelines to handle high-volume datasets"
+                ],
+                "skills": [
+                    "SQL",
+                    "ETL Development",
+                    "Data Lakehouse Architecture",
+                    "Operational Data Store (ODS)",
+                    "STTM (Source to Target Mapping)",
+                    "Metamodel Documentation",
+                    "Healthcare Data Integration",
+                    "Data Governance",
+                    "Data Modeling",
+                    "Big Data Concepts"
+                ]
+            },
+            {
+                "title": "Restaurant Web Application",
+                "image": "restaurant_web_app.jpeg",
+                "url": "project_detail.html?title=Restaurant Web Application",
+                "description": "Built a full-stack restaurant-focused web application to enhance and streamline the dining experience. Implemented user authentication using OAuth and JWT. Users can sign up, log in, search for restaurants based on dietary preferences, add items to cart, place orders, rate menu items, and earn credits. The application is backed by Node.js, Express, and a hybrid MySQL + MongoDB data model, with React and TypeScript powering the frontend. Deployed on AWS EC2 with asset storage handled via AWS S3.",
+                "features": [
+                    "User authentication using OAuth and JWT (login, signup, logout)",
+                    "Restaurant search based on dietary preferences",
+                    "Shopping cart functionality and order placement",
+                    "Menu item rating and credit reward system",
+                    "Hybrid database design using MySQL and MongoDB",
+                    "Deployed on AWS EC2 with S3 for asset storage",
+                    "Responsive and interactive UI using React and TypeScript"
+                ],
+                "skills": [
+                    "JavaScript",
+                    "TypeScript",
+                    "React.js",
+                    "Node.js",
+                    "Express.js",
+                    "MongoDB",
+                    "MySQL",
+                    "OAuth",
+                    "JWT",
+                    "AWS EC2",
+                    "AWS S3",
+                    "HTML/CSS",
+                    "Full-Stack Web Development"
+                ]
+            },
+            {
+                "title": "Hospital Management Dashboard",
+                "image": "Hospital_management.png",
+                "url": "project_detail.html?title=Hospital Management Dashboard",
+                "description": "Developed a full-featured Hospital Management Dashboard using React, TypeScript, and Material UI, following the MVC (Model-View-Controller) architecture. The application enables hospital administrators to manage core operations such as patient records, staff scheduling, appointments, and analytics. The system begins with an admin login, which upon successful authentication, redirects the user to the home page. The home page serves as a central hub linking to multiple sections: Patients, Staff, Appointments, and Analytics. Integrated Recharts to build a dedicated Analytics page that provides interactive visualizations of hospital data such as daily appointments, staff activity, and patient demographics. Worked on RESTful API integration using tools like Postman for testing and Swagger for API documentation. Designed a modular component structure, prioritized responsiveness and implemented state management to handle dynamic data rendering.",
+                "features": [
+                    "Secure Admin Login with role-based access",
+                    "Home dashboard with navigation to key modules: Patients, Staff, Appointments, Analytics",
+                    "Analytics visualizations built using Recharts",
+                    "Clean, responsive UI using Material UI Grid & Components",
+                    "MVC-based architecture for maintainability and code separation",
+                    "API integration with Postman and Swagger for testing and documentation"
+                ],
+                "skills": [
+                    "React.js",
+                    "TypeScript",
+                    "Material UI",
+                    "Recharts (Analytics)",
+                    "RESTful APIs",
+                    "Postman & Swagger (API testing/documentation)",
+                    "MVC Architecture",
+                    "Responsive Web Design",
+                    "Component-based Architecture"
+                ]
+            },
+            {
+                "title": "Corporate Website Development",
+                "image": "corporate_website.jpeg",
+                "url": "project_detail.html?title=Corporate Website Development",
+                "description": "Designed and developed a fully responsive corporate website for Hathlogic using React.js. Integrated RESTful APIs with Axios for dynamic data handling and implemented Google Maps API to display location-based services. Employed Bootstrap and custom CSS media queries to ensure seamless performance across all devices. Integrated Redux for internationalization, enabling the website to support three languages. The website reflects a modern UI and user-centric design, aligning with the brand’s corporate identity.",
+                "features": [
+                    "Responsive layout compatible across all screen sizes and devices",
+                    "API integration using Axios for real-time content rendering",
+                    "Google Maps integration for dynamic location display",
+                    "Multilingual support using Redux for internationalization (3 languages)",
+                    "Modern UI with clean, brand-aligned design"
+                ],
+                "skills": [
+                    "React.js",
+                    "Redux",
+                    "Axios",
+                    "Google Maps API",
+                    "CSS Media Queries",
+                    "Bootstrap",
+                    "HTML/CSS",
+                    "Responsive Web Design",
+                    "Internationalization (i18n)"
+                ]
+            }
+        ]
+    }
+}
