@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Project Detail</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      padding: 2rem;
+      background: #f4f6f8;
+      color: #333;
+    }
+
+    .container {
+      max-width: 800px;
+      margin: auto;
+      background: #fff;
+      padding: 2rem;
+      border-radius: 12px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.1);
+      animation: fadeIn 1s ease;
+    }
+
+    h1 {
+      margin-bottom: 0.5rem;
+    }
+
+    img {
+      max-width: 100%;
+      border-radius: 10px;
+      margin: 1rem 0;
+    }
+
+    ul {
+      padding-left: 1.2rem;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .back-link {
+      display: inline-block;
+      margin-top: 2rem;
+      color: #3498db;
+      text-decoration: none;
+    }
+
+    .back-link:hover {
+      text-decoration: underline;
+    }
+    .skills-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-top: 0.5rem;
+}
+
+.skill-tag {
+  background-color: #727678;
+  color: #fff;
+  padding: 6px 12px;
+  border-radius: 20px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  animation: fadeIn 0.5s ease-in-out;
+  transition: transform 0.2s;
+  display: inline-block;
+}
+
+.skill-tag:hover {
+  transform: scale(1.05);
+}
+
+ul {
+  padding-left: 1.2rem;
+  line-height: 1.6;
+}
+
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1 id="title">Loading...</h1>
+    <!-- <p id="category"></p> -->
+    <img id="project-image" src="" alt="" />
+    
+    <h3>Description:</h3>
+    <p id="description"></p>
+
+    <h3>Key Features:</h3>
+    <ul id="features"></ul>
+
+    <h3>Skills Used:</h3>
+    <div id="skills" class="skills-container"></div>
+
+    <a href="/" class="back-link">← Back to Portfolio</a>
+  </div>
+
+  <script>
+    const urlParams = new URLSearchParams(window.location.search);
+    const projectTitle = urlParams.get('title');
+
+    fetch('/resumeData.json')
+      .then((res) => res.json())
+      .then((data) => {
+        const project = data.portfolio.projects.find(
+          (p) => p.title === projectTitle
+        );
+
+        if (!project) {
+          document.getElementById("title").innerText = "Project Not Found";
+          return;
+        }
+
+        document.getElementById("title").innerText = project.title;
+        document.getElementById("description").innerText = project.description;
+        document.getElementById("project-image").src = "images/portfolio/" + project.image;
+        document.getElementById("project-image").alt = project.title;
+
+        const featuresList = document.getElementById("features");
+        project.features.forEach(feature => {
+          const li = document.createElement("li");
+          li.textContent = feature;
+          featuresList.appendChild(li);
+        });
+
+        const skillsContainer = document.getElementById("skills");
+        project.skills.forEach(skill => {
+          const span = document.createElement("span");
+          span.className = "skill-tag";
+          span.textContent = skill;
+          skillsContainer.appendChild(span);
+        });
+      })
+      .catch((err) => {
+        console.error("Failed to load project:", err);
+        document.getElementById("title").innerText = "Error loading project data";
+      });
+  </script>
+</body>
+</html>
