@@ -7,3 +7,5 @@ Portfolio app built using react js
 ### `yarn start` or `npm start`
 
 Runs the app in the development mode.
+
+"homepage": "https://ramanpreet6532.github.io/ramanpreetkaur/"

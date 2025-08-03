@@ -67,7 +67,7 @@ const Contact = ({ data }) => {
                 />
               </div>
 
-              <div>
+              {/* <div>
                 <label htmlFor="contactEmail">
                   Email <span className="required">*</span>
                 </label>
@@ -80,7 +80,7 @@ const Contact = ({ data }) => {
                   name="contactEmail"
                   onChange={(e) => setEmail(e.target.value)}
                 />
-              </div>
+              </div> */}
 
               <div>
                 <label htmlFor="contactSubject">Subject</label>
