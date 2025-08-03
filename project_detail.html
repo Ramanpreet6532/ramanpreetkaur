@@ -103,7 +103,7 @@ ul {
     const urlParams = new URLSearchParams(window.location.search);
     const projectTitle = urlParams.get('title');
 
-    fetch('/resumeData.json')
+    fetch('./resumeData.json')
       .then((res) => res.json())
       .then((data) => {
         const project = data.portfolio.projects.find(
