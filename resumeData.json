@@ -47,7 +47,7 @@
         "work": [
             {
                 "company": "2DOT2 Inc.",
-                "title": "Data Analyst",
+                "title": "Software Engineer",
                 "years": "Jan 2025 - Present",
                 "description": ""
             },
@@ -65,7 +65,7 @@
             },
             {
                 "company": "Hathlogic",
-                "title": "React Developer Intern",
+                "title": "Frontend Developer",
                 "years": "Jan 2021 - Jun 2021",
                 "description": ""
             }
@@ -94,10 +94,12 @@
             {
                 "name": "Express.JS",
                 "level": "80%"
-            },{
+            },
+            {
                 "name": "MongoDB",
                 "level": "80%"
-            },{
+            },
+            {
                 "name": "MySQL",
                 "level": "80%"
             },
@@ -114,30 +116,20 @@
     "portfolio": {
         "projects": [
             {
-                "title": "Healthcare Data Platform",
+                "title": "Healthcare Insurance Web Application",
                 "image": "healthcare_project.png",
-                "url": "project_detail.html?title=Healthcare Data Platform",
-                "description": "Worked on a large-scale healthcare data project for Healthfirst to build a unified and analytics-ready data platform. Ingested and processed raw data from multiple sources including MHS, 834, MP, and HRP. Created an Operational Data Store (ODS) as a refined layer to standardize the data, and developed Lakehouse architecture on top of it for analytical consumption. Authored STTM (Source to Target Mapping) and metamodel documentation to ensure accurate data lineage, governance, and business understanding across stakeholders.",
+                "url": "project_detail.html?title=Healthcare Insurance Web Application",
+                "description": "This project involved the design and implementation of a scalable and efficient Health Insurance web application that enabled users to easily access, manage, and purchase health insurance policies. The focus was on enhancing both performance and user experience by leveraging modern technologies like React, Next.js, and TypeScript. The application was built to handle significant traffic and provide a seamless experience across devices.",
                 "features": [
-                    "Ingested raw data from heterogeneous healthcare sources (MHS, 834, MP, HRP)",
-                    "Built an ODS (Operational Data Store) as a refined and integrated data layer",
-                    "Implemented Lakehouse architecture to support both analytics and reporting",
-                    "Created STTM (Source to Target Mapping) documents for traceability",
-                    "Authored detailed metamodel documentation for data cataloging and governance",
-                    "Enabled scalable data processing pipelines to handle high-volume datasets"
+                    "Designed a scalable, component-based platform with React, Next.js, and TypeScript, boosting system reliability by 30%.",
+                    "Developed dynamic, reusable user interfaces with CSS modules and styled-components, increasing user engagement by 25%.",
+                    "Improved SQL query performance and implemented indexing strategies, speeding up data retrieval by 50%.",
+                    "Deployed the app using AWS (EC2, S3, CloudFront), cutting page load times by 60% with CDN and caching.",
+                    "Maintained a scalable codebase with ESLint, Prettier, and TypeScript, reducing code review time by 20%.",
+                    "Streamlined deployment and testing pipelines using Jenkins, reducing release cycles by 50%.",
+                    "Resolved front-end and back-end issues using developer tools and logging, decreasing user-reported bugs by 35%."
                 ],
-                "skills": [
-                    "SQL",
-                    "ETL Development",
-                    "Data Lakehouse Architecture",
-                    "Operational Data Store (ODS)",
-                    "STTM (Source to Target Mapping)",
-                    "Metamodel Documentation",
-                    "Healthcare Data Integration",
-                    "Data Governance",
-                    "Data Modeling",
-                    "Big Data Concepts"
-                ]
+                "skills": ["JavaScript", "TypeScript", "React", "Next.js", "AWS", "CSS", "SQL", "MongoDB", "ESLint", "Prettier", "Jenkins", "GitHub", "CI/CD"]
             },
             {
                 "title": "Restaurant Web Application",
