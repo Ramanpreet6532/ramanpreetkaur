@@ -21,7 +21,7 @@ const Resume = ({ data }) => {
           <h3>{work.company}</h3>
           <p className="info">
             {work.title}
-            <span>&bull;</span> <em className="date">{work.years}</em>
+            {/* <span>&bull;</span> <em className="date">{work.years}</em> */}
           </p>
           <p>{work.description}</p>
         </div>
