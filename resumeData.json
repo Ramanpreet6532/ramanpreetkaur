@@ -2,9 +2,9 @@
     "main": {
         "name": "Ramanpreet",
         "occupation": "Software Engineer",
-        "description": "Software Engineer with Frontend Development, Backend Development experience across diverse industries including banking, healthcare, and research",
+        "description": "Full Stack Developer, Frontend Developer, Backend Developer",
         "image": "Raman_profile.jpeg",
-        "bio": "Hi there! I am Ramanpreet Kaur -- Software Engineer with experience in Software Development, Backend development, Cloud Infrastructure, Software Testing contributing to projects across diverse industries including banking, healthcare, and research. Committed to driving collaborative innovation in building robust, scalable, and user-centric solutions to address complex real-world challenges.",
+        "bio": "Hi there! I am Ramanpreet Kaur -- Software Engineer with experience in Frontend Development, Backend development, Cloud Infrastructure, Software Testing contributing to projects across diverse industries including Healthcare, E-commerce and Research. Committed to driving collaborative innovation in building robust, scalable, and user-centric solutions to address complex real-world challenges.",
         "contactmessage": "Get in touch with me",
         "email": "ramanpreet16532@gmail.com",
         "phone": "+1 (619) 673-7682",
@@ -79,6 +79,11 @@
                 "name": "Typescript",
                 "level": "75%"
             },
+            ,
+            {
+                "name": "Javascript",
+                "level": "75%"
+            },
             {
                 "name": "HTML",
                 "level": "70%"
@@ -106,6 +111,10 @@
             {
                 "name": "AWS",
                 "level": "80%"
+            },
+            {
+                "name": "jQuery",
+                "level": "75%"
             },
             {
                 "name": "Github",
